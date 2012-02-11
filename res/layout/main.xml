@@ -1,12 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- <Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button"
+    android:textStyle="bold"
+    android:textColor="#113388"
+    android:text=""
+    android:textSize="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"
+        android:text="@string/titleStatus" /> -->
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+	
+    <TextView 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:textSize="30sp"
+       android:layout_margin="10dp"
+       android:text="were u expecting me?" />
+	
+	<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button"
+    android:textStyle="bold"
+    android:textColor="#113388"
+    android:text=""
+    android:textSize="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+	
+	<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button1"
+    android:textColor="#330000"
+    android:text="wasssup"
+    android:textSize="20dp"
+    android:onClick="changeColor"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+	
+	<CheckBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This checkbox is: unchecked" />
+<!-- 	
+	<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:adjustViewBounds="true"
+    android:src="@drawable/rk"
+/> -->
+	
+	<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/field"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:singleLine="false"
+/>
 
-    <TextView
+
+    <!-- <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/hello" /> -->
 
-</LinearLayout>
+</LinearLayout> 
